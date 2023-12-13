@@ -1,0 +1,28 @@
+.navbar-container-main {
+  padding: 30px 40px;
+}
+
+.header-banner-bg-int {
+  background-image: url("../img/pattern-b.svg"), linear-gradient(263deg, #291B3E 17.49%, #1A1127 91.12%);
+  background-color: #291B3E;
+  background-size: 400px 400px, auto;
+  background-repeat: repeat, no-repeat;
+  padding: 100px 40px;
+  overflow: hidden;
+}
+
+// Mobile - Llamados en _mobile.scss
+@mixin header-interior--md() {
+  .header-banner-bg-int {
+    padding: 80px 40px;
+  }
+}
+
+@mixin header-interior--sm() {
+  .navbar-container-main {
+    padding: 30px 30px;
+  }
+  .header-banner-bg-int {
+    padding: 60px 30px;
+  }
+}

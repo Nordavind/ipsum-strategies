@@ -1,0 +1,70 @@
+// Botones
+.button-base {
+  width: 180px;
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: $color-wht;
+
+  &.button-gradient {
+    padding: 18px 0px;
+    border-radius: 10px;
+    background: linear-gradient(94deg, $color-secondary 3.81%, $color-primary 95.64%);
+  }
+
+  &.button-ghost {
+    width: 178px;
+    padding: 16px 0px;
+    border-radius: 10px;
+    border: 2px solid $color-wht;
+    background: rgba(0, 0, 0, 0.00);
+    transition: background 0.2s linear, border 0.2s linear;
+
+    &.button-ghost:hover {
+      background: $color-primary;
+      border: 2px solid $color-primary;
+    }
+  }
+}
+
+// Links textos
+.leer-mas-link {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  text-decoration: none;
+  color: $color-wht;
+  text-transform: uppercase;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.2s linear;
+
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+.h3-link {
+  text-decoration: none;
+}
+
+.h3-link-text {
+  transition: color 0.2s linear;
+
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+// Buttons mobile - Llamados en _mobile.scss
+
+@mixin buttons--sm() {
+  .button-base {
+    width: 200px;
+    &.button-ghost {
+      width: 199px;
+    }
+  }
+}
