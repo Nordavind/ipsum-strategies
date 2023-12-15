@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600&family=Sora:wght@200;300;400;500;600&display=swap');
 
 // Variables Fuentes
+
 $font-uno: 'Lexend', sans-serif;
 $font-dos: 'Sora', sans-serif;
 
 // Encabezados
+
 %titulo-base {
   font-family: $font-dos;
   font-size: 2.2rem;
@@ -54,7 +56,7 @@ h2 {
   }
 
   &.h2-lateral-internal-title {
-    color: $color-wht; 
+    color: $color-wht;
     font-size: 1.4rem;
     font-weight: 200;
     line-height: 1.9rem;
@@ -82,6 +84,7 @@ h4 {
 }
 
 // Textos
+
 p {
   color: $color-wht;
   font-size: 0.875rem;

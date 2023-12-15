@@ -16,11 +16,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 0.3s linear;
+  transition: all .3s ease-in-out;
   border: none;
 
   &.back-top:hover {
-  background-color: $color-primary;
+    background-color: $color-primary;
   }
 
   &.back-top:active {
@@ -29,6 +29,7 @@
 }
 
 // Mobile - Llamados en _mobile.scss
+
 @mixin back-top--lg() {
   .back-top {
     bottom: 15px;

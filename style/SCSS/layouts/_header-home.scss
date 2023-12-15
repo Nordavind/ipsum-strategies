@@ -67,17 +67,17 @@
 
 .hero-content {
   @extend %flex-init-col; //utilities/_variables.scss
-  align-items: center; 
+  align-items: center;
   gap: 20px;
 }
 
 .buttons-hero-wrapper {
-  @extend %flex-init-row; 
-  justify-content: center;//utilities/_variables.scss
+  @extend %flex-init-row;
+  justify-content: center; //utilities/_variables.scss
   gap: 30px;
 }
 
-// Header mobile - Llamados en _mobile.scss
+// Mobile - Llamados en _mobile.scss
 
 @mixin header-home--lg() {
   .hero-container {

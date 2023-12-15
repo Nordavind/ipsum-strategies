@@ -1,9 +1,9 @@
 > [!CAUTION]
 > Proyecto en desarrollo.
 
-## Agencia Ipsum
+## Ipsum Strategies
 
-Proyecto web desarrollado para curso "Desarrollo Web Flex" de Codehouse (Comisión #56570) 2023-2024.
+Proyecto web ficticio desarrollado para curso "Desarrollo Web Flex" de Coderhouse (Comisión #56570) 2023-2024.
 
 - Bootstrap (por requerimiento, únicamente presente en index -> bloque servicios.)
 - SASS

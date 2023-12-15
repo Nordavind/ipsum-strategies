@@ -1,4 +1,5 @@
 // Logos Grid
+
 .logos-grid {
   max-width: 950px;
   margin: auto;
@@ -19,7 +20,8 @@
   }
 }
 
-// Mobile Logos Grid - Llamados en _mobile.scss
+// Mobile - Llamados en _mobile.scss
+
 @mixin logos-grid--md() {
   .logos-grid {
     max-width: 100%;

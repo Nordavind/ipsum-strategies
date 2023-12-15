@@ -12,6 +12,7 @@
 }
 
 // Mobile - Llamados en _mobile.scss
+
 @mixin header-interior--md() {
   .header-banner-bg-int {
     padding: 80px 40px;
@@ -22,6 +23,7 @@
   .navbar-container-main {
     padding: 30px 30px;
   }
+
   .header-banner-bg-int {
     padding: 60px 30px;
   }
