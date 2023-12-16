@@ -1,8 +1,8 @@
 // Layout
 
 .form-container-bg {
-  background-image: url("../img/pattern-b.svg"), linear-gradient(263deg, #291B3E 17.49%, #1A1127 91.12%);
-  background-color: #291B3E;
+  background-image: url("../img/pattern-b.svg"), linear-gradient(263deg, $color-dark-a 17.49%, $color-dark-b 91.12%);
+  background-color: $color-dark-a;
   background-size: 400px 400px, auto;
   background-repeat: repeat, no-repeat;
   padding: 100px 40px;

@@ -2,7 +2,7 @@
 
 .footer-container {
   padding: 0px 40px;
-  background: linear-gradient(180deg, rgba(59, 40, 87, 0.20) 0%, rgba(41, 27, 62, 0.20) 100%), #291B3E;
+  background: linear-gradient(180deg, rgba(59, 40, 87, 0.20) 0%, rgba(41, 27, 62, 0.20) 100%), $color-dark-a;
 }
 
 .footer-wrapper {
@@ -43,7 +43,7 @@
 
 .menu-info a {
   font-size: 0.95rem;
-  color: #B49CD9;
+  color: $color-third;
   font-weight: 300;
   line-height: 1.2rem;
   text-decoration: none;
@@ -54,7 +54,7 @@
 }
 
 .menu-info a:hover {
-  color: #F52A8C;
+  color: $color-primary;
 }
 
 .menu-info img {
@@ -75,7 +75,7 @@
   font-family: 'Sora', sans-serif;
   font-size: 0.75rem;
   font-weight: 200;
-  color: #B49CD9;
+  color: $color-third;
 }
 
 .sub-footer-links {
@@ -89,20 +89,20 @@
   font-family: 'Sora', sans-serif;
   font-size: 0.75rem;
   font-weight: 200;
-  color: white;
+  color: $color-wht;
   text-decoration: none;
   transition: all .3s ease-in-out;
 }
 
 .sub-footer-links a:hover {
-  color: #F52A8C;
+  color: $color-primary;
 }
 
 .sub-footer span {
   font-family: 'Sora', sans-serif;
   font-size: 0.75rem;
   font-weight: 500;
-  color: white;
+  color: $color-wht;
 }
 
 // Nav Footer 
@@ -115,7 +115,7 @@ ul.menu-footer {
 }
 
 .menu-footer li a {
-  color: white;
+  color: $color-wht;
   text-shadow: 0px 3px 3px #1C132A;
   font-size: 14px;
   font-weight: 300;
@@ -126,7 +126,7 @@ ul.menu-footer {
 }
 
 .menu-footer a:hover {
-  color: #F52A8C;
+  color: $color-primary;
 }
 
 // Mobile - Llamados en _mobile.scss
