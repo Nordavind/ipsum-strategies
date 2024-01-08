@@ -18,15 +18,16 @@
   align-items: center;
   transition: all .3s ease-in-out;
   border: none;
+}
 
-  &.back-top:hover {
-    background-color: $color-primary;
-  }
+// Fix hover solo en desktop - Llamados en _mobile.scss
 
-  &.back-top:active {
+@mixin back-top--hoverfix() {
+  .back-top:hover {
     background-color: $color-primary;
   }
 }
+
 
 // Mobile - Llamados en _mobile.scss
 

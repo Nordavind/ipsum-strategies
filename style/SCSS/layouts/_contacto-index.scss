@@ -81,9 +81,17 @@
   margin: auto;
 }
 
-#form-submit:hover {
-  color: $color-dark-a;
-  background: $color-third;
+
+// Fix hover solo en desktop - Llamados en _mobile.scss
+
+@mixin contacto-index--hoverfix() {
+  #form-submit {
+  
+    &#form-submit:hover {
+      color: $color-dark-a;
+      background: $color-third;
+    }
+  }
 }
 
 // Mobile - Llamados en _mobile.scss
