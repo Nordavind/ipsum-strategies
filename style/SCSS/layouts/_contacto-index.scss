@@ -86,8 +86,8 @@
 
 @mixin contacto-index--hoverfix() {
   #form-submit {
-  
-    &#form-submit:hover {
+
+    &:hover {
       color: $color-dark-a;
       background: $color-third;
     }

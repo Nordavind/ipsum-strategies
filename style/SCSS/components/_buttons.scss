@@ -78,12 +78,11 @@
 
   .button-ghost {
 
-    &.button-ghost:hover {
+    &:hover {
       background: $color-primary;
       border: 2px solid $color-primary;
     }
   }
-
 }
 
 // Mobile - Llamados en _mobile.scss

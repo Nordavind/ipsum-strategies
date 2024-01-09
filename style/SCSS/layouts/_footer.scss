@@ -29,36 +29,36 @@
   display: flex;
   flex-flow: row nowrap;
   gap: 20px;
-}
 
-.rrss-icons img {
-  width: 25px;
+  img {
+    width: 25px;
+  }
 }
 
 .menu-info {
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
 
-.menu-info a {
-  font-size: 0.95rem;
-  color: $color-third;
-  font-weight: 300;
-  line-height: 1.2rem;
-  text-decoration: none;
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 15px;
-  transition: all .3s ease-in-out;
-}
+  a {
+    font-size: 0.95rem;
+    color: $color-third;
+    font-weight: 300;
+    line-height: 1.2rem;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+    transition: all .3s ease-in-out;
 
-.menu-info a:hover {
-  color: $color-primary;
-}
+    &:hover {
+      color: $color-primary;
+    }
 
-.menu-info img {
-  width: 15px;
+    img {
+      width: 15px;
+    }
+  }
 }
 
 .sub-footer {
@@ -69,40 +69,40 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-}
 
-.sub-footer p {
-  font-family: 'Sora', sans-serif;
-  font-size: 0.75rem;
-  font-weight: 200;
-  color: $color-third;
-}
+  p {
+    font-family: $font-dos;
+    font-size: 0.75rem;
+    font-weight: 200;
+    color: $color-third;
+  }
 
-.sub-footer-links {
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 10px;
-  align-items: center;
-}
+  span {
+    font-family: $font-dos;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: $color-wht;
+  }
 
-.sub-footer-links a {
-  font-family: 'Sora', sans-serif;
-  font-size: 0.75rem;
-  font-weight: 200;
-  color: $color-wht;
-  text-decoration: none;
-  transition: all .3s ease-in-out;
-}
+  .sub-footer-links {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    align-items: center;
 
-.sub-footer-links a:hover {
-  color: $color-primary;
-}
+    a {
+      font-family: $font-dos;
+      font-size: 0.75rem;
+      font-weight: 200;
+      color: $color-wht;
+      text-decoration: none;
+      transition: all .3s ease-in-out;
 
-.sub-footer span {
-  font-family: 'Sora', sans-serif;
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: $color-wht;
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
 }
 
 // Nav Footer 
@@ -112,21 +112,21 @@ ul.menu-footer {
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
 
-.menu-footer li a {
-  color: $color-wht;
-  text-shadow: 0px 3px 3px #1C132A;
-  font-size: 14px;
-  font-weight: 300;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.0300rem;
-  transition: all .3s ease-in-out;
-}
+  li a {
+    color: $color-wht;
+    text-shadow: 0px 3px 3px #1C132A;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.0300rem;
+    transition: all .3s ease-in-out;
 
-.menu-footer a:hover {
-  color: $color-primary;
+    &:hover {
+      color: $color-primary;
+    }
+  }
 }
 
 // Mobile - Llamados en _mobile.scss
@@ -167,9 +167,9 @@ ul.menu-footer {
 
   .sub-footer-links {
     flex-flow: row wrap;
-  }
 
-  .sub-footer-links p {
-    display: none;
+    p {
+      display: none;
+    }
   }
 }
