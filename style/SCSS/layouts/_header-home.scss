@@ -1,3 +1,5 @@
+// Header Home
+
 .header-container {
   background-image: url("../img/pattern-a.svg"), linear-gradient(263deg, $color-dark-a 17.49%, $color-dark-b 91.12%);
   background-color: $color-dark-a;
@@ -76,6 +78,7 @@
   justify-content: center; //utilities/_variables.scss
   gap: 30px;
 }
+
 
 // Mobile - Llamados en _mobile.scss
 
