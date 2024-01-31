@@ -4,7 +4,7 @@ html,
 body {
   font-family: $font-uno;
   background-color: $color-dark-a;
-  scroll-behavior: smooth;
+  //scroll-behavior: smooth; apagado por problemas en mobile en conjunto a js de navbar
 }
 
 ::selection {

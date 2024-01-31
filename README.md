@@ -1,5 +1,5 @@
-> [!CAUTION]
-> Proyecto en desarrollo.
+> [!NOTE]
+> Proyecto finalizado 31/01/2024.
 
 ## Ipsum Strategies
 
